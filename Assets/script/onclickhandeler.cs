@@ -51,8 +51,8 @@ public class onclickhandeler : MonoBehaviour,IPointerClickHandler
         shootDirection = Camera.main.ScreenToWorldPoint(shootDirection);
         shootDirection = shootDirection-transform.position;
         //...instantiating the rocket
-        Rigidbody2D bulletInstance = Instantiate(bullet, transform.position, Quaternion.Euler(new Vector3(0,0,0))) as Rigidbody2D;
-        bulletInstance.velocity = new Vector2(shootDirection.x * 0.2f, shootDirection.y * 0.2f);
+        // Rigidbody2D bulletInstance = Instantiate(bullet, transform.position, Quaternion.Euler(new Vector3(0,0,0))) as Rigidbody2D;
+        // bulletInstance.velocity = new Vector2(shootDirection.x * 0.2f, shootDirection.y * 0.2f);
         
     }
 }
