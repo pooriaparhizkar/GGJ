@@ -14,10 +14,6 @@ public class moveEnemy : MonoBehaviour
         player = player2;
         delta = transform.position - player2.transform.position;
     }
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
     void Update()
