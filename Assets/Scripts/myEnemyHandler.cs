@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyHandler : MonoBehaviour
+public class myEnemyHandler : MonoBehaviour
 {
     // Start is called before the first frame update
     public GameObject[] enemies;
@@ -39,7 +39,7 @@ public class EnemyHandler : MonoBehaviour
                 go = Instantiate(enemies[Random.Range(0, 2)]);
                 go.transform.position = new Vector3(GetRandomPrefabInitialX(), enemySpawArea.transform.position.y,
                     enemySpawArea.transform.position.z);
-                    // enemySpawArea.transform.position;
+                // enemySpawArea.transform.position;
                 go.transform.SetParent(gameObject.transform);
                 go.transform.localScale = new Vector3(1, 1, 1);
                 go.GetComponent<moveEnemy>().setup(player);
