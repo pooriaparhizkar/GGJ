@@ -264,7 +264,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 53.36, y: 209.51, z: -6073.5957}
+  m_LocalPosition: {x: 53.36001, y: 209.51, z: -6073.5938}
   m_LocalScale: {x: 60.80674, y: 60.80674, z: 60.80674}
   m_Children: []
   m_Father: {fileID: 1953554593}
@@ -337,7 +337,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1416358196}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
@@ -358,6 +358,7 @@ GameObject:
   - component: {fileID: 1416358197}
   - component: {fileID: 1416358200}
   - component: {fileID: 1416358201}
+  - component: {fileID: 1416358202}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -377,7 +378,6 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 1470600094}
-  - {fileID: 1953554593}
   - {fileID: 734361716}
   m_Father: {fileID: 0}
   m_RootOrder: 1
@@ -475,13 +475,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20a8fe407c3a83042aa10f1caa28202a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1416358202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1416358195}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b785dd9cee4ffc43a5f562d0d0aa965, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
   enemies:
-  - {fileID: 3136747299955503964, guid: 50dcc16f065ad3748945aa216ce2ec86, type: 3}
-  - {fileID: 5642737071427971630, guid: 544d3c7a99a9d7a40b29a118340f19db, type: 3}
+  - {fileID: 7682482816064825387, guid: 0d853c4cb60ae6841a2ffa4f0a832687, type: 3}
+  - {fileID: 4801853863844240114, guid: afdcca7444cb47a48b4f0e60829c6e2d, type: 3}
   enemySpawArea: {fileID: 734361713}
-  timerMaxTime: 3
-  minX: -15
-  maxX: 15
+  timerMaxTime: 5
+  minX: -10
+  maxX: 10
   player: {fileID: 1953554592}
 --- !u!1 &1470600093
 GameObject:
@@ -508,17 +520,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1470600093}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 1953554593}
   m_Father: {fileID: 1416358196}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -12, y: -1.1000061}
+  m_SizeDelta: {x: 1872.7471, y: 1053.1769}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1470600095
 MonoBehaviour:
@@ -533,13 +546,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0.9388051, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: c68c24ec25cd7cd4bb1b71009efdafe9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -583,17 +596,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1953554592}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 519420032}
-  m_Father: {fileID: 1416358196}
-  m_RootOrder: 1
+  m_Father: {fileID: 1470600094}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -53.36, y: -209.51}
+  m_AnchoredPosition: {x: -64.91329, y: -221.67134}
   m_SizeDelta: {x: 21.313498, y: 22.778671}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1953554594
