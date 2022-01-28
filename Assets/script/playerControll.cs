@@ -76,7 +76,7 @@ public class playerControll : MonoBehaviour, IPointerClickHandler
         Debug.Log(eventData);
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnCollisionEnter2D(Collision2D other)
     {
         Debug.Log("trigger");
         if (other.gameObject.CompareTag($"E1") || other.gameObject.CompareTag($"E2"))

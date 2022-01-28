@@ -67,7 +67,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: fcb9739814e3cc84b9f6ebfab6709556, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1db6933497b933a439ff94a5b00a9117, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -91,6 +91,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blackBG: {fileID: 0}
   whiteBG: {fileID: 0}
+  enemy: {fileID: 0}
+  particle: {fileID: 921701502625589192, guid: 34b07da6e0ce81e4b90d1b95a604e3a2, type: 3}
 --- !u!50 &-7414033804311363058
 Rigidbody2D:
   serializedVersion: 4

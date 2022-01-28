@@ -19,7 +19,7 @@ public class UIManager : MonoBehaviour
     void Update()
     {
         score += Time.deltaTime;
-        scoreText.text = score.ToString();
+        scoreText.text = ((int)score).ToString();
     }
 
 

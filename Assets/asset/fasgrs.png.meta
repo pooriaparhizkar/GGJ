@@ -1,19 +1,22 @@
 fileFormatVersion: 2
-guid: 0f2087e85668a6c41a17b8e445abb544
+guid: b0da5af3a0f93254bba8132e1832a38f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 9181166106858395344
-    second: sfsf_0
+      213: -4707903039334556417
+    second: fasgrs_0
   - first:
-      213: 2132516731124164830
-    second: sfsf_1
+      213: -5995001374555378975
+    second: fasgrs_1
   - first:
-      213: 2373371290125431429
-    second: sfsf_2
+      213: -8669036014048268341
+    second: fasgrs_2
   - first:
-      213: 8088546791117353778
-    second: sfsf_3
+      213: -8474413151346195401
+    second: fasgrs_3
+  - first:
+      213: -1536478813752445427
+    second: fasgrs_4
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -59,7 +62,7 @@ TextureImporter:
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 0
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -111,34 +114,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sfsf_0
+      name: fasgrs_0
       rect:
         serializedVersion: 2
-        x: 92
-        y: 112
-        width: 230
-        height: 202
-      alignment: 9
-      pivot: {x: 0.5846401, y: 0.029703008}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0d696272eed0a6f70800000000000000
-      internalID: 9181166106858395344
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sfsf_1
-      rect:
-        serializedVersion: 2
-        x: 20
-        y: 60
-        width: 124
-        height: 51
+        x: 19
+        y: 17
+        width: 9
+        height: 10
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -146,20 +128,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ed8ab3c1ba8389d10800000000000000
-      internalID: 2132516731124164830
+      spriteID: ffc5b77112b2aaeb0800000000000000
+      internalID: -4707903039334556417
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sfsf_2
+      name: fasgrs_1
       rect:
         serializedVersion: 2
-        x: 18
-        y: 131
-        width: 57
-        height: 85
+        x: 39
+        y: 12
+        width: 19
+        height: 17
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -167,20 +149,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 582790c1d98efe020800000000000000
-      internalID: 2373371290125431429
+      spriteID: 1eae5a1430a7dcca0800000000000000
+      internalID: -5995001374555378975
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sfsf_3
+      name: fasgrs_2
       rect:
         serializedVersion: 2
-        x: 167
-        y: 0
-        width: 133
-        height: 102
+        x: 62
+        y: 11
+        width: 12
+        height: 19
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -188,8 +170,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 233fca9937a404070800000000000000
-      internalID: 8088546791117353778
+      spriteID: bcfa59dfca561b780800000000000000
+      internalID: -8669036014048268341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fasgrs_3
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 18
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7348c126326d46a80800000000000000
+      internalID: -8474413151346195401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fasgrs_4
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 6
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d063f55d8a45daae0800000000000000
+      internalID: -1536478813752445427
       vertices: []
       indices: 
       edges: []
