@@ -18,7 +18,7 @@ public class onclickhandeler : MonoBehaviour,IPointerClickHandler
         go = Instantiate(bullet);
         go.transform.position = player.transform.position;
         go.transform.SetParent(parent.transform );
-        go.transform.localScale = new Vector3(1, 1, 1);
+        go.transform.localScale = new Vector3(3, 1, 0);
         Vector3 temp = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         go.transform.DOMove(temp, 0.5f);
         await Task.Delay(500);
