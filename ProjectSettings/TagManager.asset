@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - E1
+  - E2
+  - bullet
+  - BGE1
+  - BGE2
+  - Enemy
   layers:
   - Default
   - TransparentFX
