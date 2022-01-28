@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using DG.Tweening;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using System.Threading.Tasks;
 
 public class onclickhandeler : MonoBehaviour,IPointerClickHandler
 {
@@ -11,7 +12,7 @@ public class onclickhandeler : MonoBehaviour,IPointerClickHandler
     public GameObject player;
     public GameObject parent;
 
-    public void OnPointerClick(PointerEventData eventData)
+    public async void OnPointerClick(PointerEventData eventData)
     {
         GameObject go;
         go = Instantiate(bullet);
@@ -20,6 +21,8 @@ public class onclickhandeler : MonoBehaviour,IPointerClickHandler
         go.transform.localScale = new Vector3(1, 1, 1);
         Vector3 temp = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         go.transform.DOMove(temp, 0.5f);
+        await Task.Delay(500);
+        Destroy(go);
 
     }
 }

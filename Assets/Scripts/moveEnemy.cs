@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using DG.Tweening;
 using UnityEngine;
@@ -20,4 +21,5 @@ public class moveEnemy : MonoBehaviour
     {
         transform.DOMove(player.transform.position, 5f);
     }
+    
 }
